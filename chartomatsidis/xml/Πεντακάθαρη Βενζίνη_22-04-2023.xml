@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE business SYSTEM "./business.dtd">
+<business>
+  <bizname>Πεντακάθαρη Βενζίνη</bizname>
+  <afm>999999999</afm>
+  <county>ΡΟΔΟΠΗΣ</county>
+  <municipal>Κομοτηνης</municipal>
+  <address>Φιλήμωνος-Γεννηματά</address>
+  <offers>
+    <offer>
+      <fueltype>Αμόλυβδη 95</fueltype>
+      <expdate>2023-06-30</expdate>
+      <price>1.23</price>
+      <isactive>true</isactive>
+    </offer>
+    <offer>
+      <fueltype>Αμόλυβδη 95</fueltype>
+      <expdate>2023-04-21</expdate>
+      <price>0.02</price>
+      <isactive>false</isactive>
+    </offer>
+    <offer>
+      <fueltype>Πετρέλαιο Κίνησης</fueltype>
+      <expdate>2023-06-30</expdate>
+      <price>3.14</price>
+      <isactive>true</isactive>
+    </offer>
+    <offer>
+      <fueltype>Πετρέλαιο Κίνησης</fueltype>
+      <expdate>2023-04-20</expdate>
+      <price>7.77</price>
+      <isactive>false</isactive>
+    </offer>
+    <offer>
+      <fueltype>Πετρέλαιο Κίνησης</fueltype>
+      <expdate>2023-01-01</expdate>
+      <price>1.20</price>
+      <isactive>false</isactive>
+    </offer>
+    <offer>
+      <fueltype>Πετρέλαιο Θέρμανσης</fueltype>
+      <expdate>2023-06-30</expdate>
+      <price>1.23</price>
+      <isactive>true</isactive>
+    </offer>
+    <offer>
+      <fueltype>Πετρέλαιο Θέρμανσης</fueltype>
+      <expdate>2023-04-08</expdate>
+      <price>1.70</price>
+      <isactive>false</isactive>
+    </offer>
+  </offers>
+</business>

@@ -1,0 +1,45 @@
+
+/* adjusts bootstrap heading classes fonts*/
+.h1 {
+  font-size: large;
+}
+.h2 {
+  color: black;
+  font-size: small;
+}
+.h3 {
+  font-size: smaller;
+  font-weight: normal;
+}
+
+/* makes sure that paragraphs that also act as hyperlinks keep their default color*/
+p {
+  color: black;
+}
+
+/* make special hyperlinks for header and footer*/
+.headerFooterHlink {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* The Modal (background) */
+.themodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10%; /* Location of the box */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.themodal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}

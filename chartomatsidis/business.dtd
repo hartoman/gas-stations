@@ -1,0 +1,13 @@
+<!ELEMENT business (bizname,afm,county,municipal,address,offers)>
+<!ELEMENT bizname (#PCDATA)>
+<!ELEMENT afm (#PCDATA)>
+<!ELEMENT county (#PCDATA)>
+<!ELEMENT municipal (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT offers (offer*)>
+<!ELEMENT offer (fueltype,expdate,price,isactive)>
+<!ELEMENT fueltype (#PCDATA)>
+<!ELEMENT expdate (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT isactive (#PCDATA)>
+
