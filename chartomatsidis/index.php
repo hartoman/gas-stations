@@ -1,3 +1,14 @@
+<?php
+include 'dbh.php';
+session_start();
+
+if (!isset($_SESSION["viewAs"])) {
+  $_SESSION["viewAs"] = "Guest";
+}
+if (!isset($_SESSION["userName"])) {
+  $_SESSION["userName"] = "000000000";
+}
+?>
 <html lang="en">
 
 <head>
@@ -11,22 +22,6 @@
   <!-- include custom css-->
   <link rel="stylesheet" href="style.css" />
 </head>
-
-
-<?php
-include 'dbh.php';
-?>
-
-<?php
-session_start();
-
-if (!isset($_SESSION["viewAs"])) {
-  $_SESSION["viewAs"] = "Guest";
-}
-if (!isset($_SESSION["userName"])) {
-  $_SESSION["userName"] = "000000000";
-}
-?>
 
 <?php 
 // default value to display
